@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#stdForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Add your desired styles */
+}
+
+.circle {
+    width: 150px; /* Adjust the width and height as needed */
+    height: 150px;
+    background-color: red; /* Add your desired styles */
+    border-radius: 50%; /* Makes it a circle */
+}
+#empForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Add your desired styles */
+}
+
+.circle {
+    width: 150px; /* Adjust the width and height as needed */
+    height: 150px;
+    background-color: red; /* Add your desired styles */
+    border-radius: 50%; /* Makes it a circle */
+}
+#stdForm .circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  #stdEmployee .circle {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+  }
